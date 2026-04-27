@@ -84,7 +84,7 @@ def style_base_layout():
                 padding: 10px 20px !important;
                 border: none !important;
                 transition: transform 0.25s ease-in-out !important;
-            }
+                }
 
             button[kind="secondary"]{
                 border-radius: 1.5rem !important;
@@ -93,7 +93,7 @@ def style_base_layout():
                 padding: 10px 20px !important;
                 border: none !important;
                 transition: transform 0.25s ease-in-out !important;
-            }
+                }
 
             button[kind="tertiary"]{
                 border-radius: 1.5rem !important;
@@ -102,12 +102,10 @@ def style_base_layout():
                 padding: 10px 20px !important;
                 border: none !important;
                 transition: transform 0.25s ease-in-out !important;
-            }
+                }
 
             button:hover{
-                transform :scale(1.05)
-            }
-                
+                transform :scale(1.05)}
         </style>  
 
                 """

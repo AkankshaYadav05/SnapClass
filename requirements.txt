@@ -1,3 +1,5 @@
+streamlit  # frontend library
+
 # Utilities
 numpy
 pandas
@@ -15,4 +17,6 @@ bcrypt
 segno  # used for QR code
 pillow  # a librabry helps in image preprocessing
 
-streamlit  # frontend library
+
+librosa  # audio files => edit , load, removing noise from voice files
+resemblyzer  # it creates embeddings of voice
