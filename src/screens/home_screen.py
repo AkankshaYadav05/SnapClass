@@ -4,28 +4,18 @@ from src.components.footer import footer_home
 from src.ui.base_layout import style_base_layout, style_background_home
 def home_screen():
 
-    st.markdown("""
-    <a href="https://snap-class-frontend-kappa.vercel.app/" target="_self"
-    style="
-    display:inline-block;
-    padding:8px 14px;
-    border-radius:10px;
-    background:#f0f2f6;
-    color:#111;
-    text-decoration:none;
-    font-weight:600;
-    border:1px solid #d0d4db;
-    ">
-    ⬅
-    </a>
-    """, unsafe_allow_html=True)
 
-       
+    st.link_button(
+        "⬅",
+        "https://snap-class-frontend-kappa.vercel.app/",
+        use_container_width=False
+    )
+    
+    
     header_home()
     style_background_home()
     style_base_layout()
 
-   
     col1, col2 = st.columns(2, gap="large")
 
     with col1:
